@@ -55,6 +55,6 @@ module tt_um_mvm #( parameter MAX_COUNT = 24'd10_000_000 ) (
     end
 
     // instantiate segment display
-    seg7 seg7(.counter(digit), .segments(led_out));
+    mvm mvm(.counter(digit), .segments(led_out));
 
 endmodule
